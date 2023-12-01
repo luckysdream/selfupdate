@@ -1,4 +1,4 @@
-[![API Reference](https://img.shields.io/badge/api-reference-blue.svg)](https://pkg.go.dev/github.com/minio/selfupdate?tab=doc) [![Apache V2 License](https://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://github.com/minio/selfupdate/blob/master/LICENSE)
+[![API Reference](https://img.shields.io/badge/api-reference-blue.svg)](https://pkg.go.dev/github.com/luckysdream/selfupdate?tab=doc) [![Apache V2 License](https://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://github.com/luckysdream/selfupdate/blob/master/LICENSE)
 
 # selfupdate: Build self-updating Go programs
 
@@ -18,7 +18,7 @@ import (
     "fmt"
     "net/http"
 
-    "github.com/minio/selfupdate"
+    "github.com/luckysdream/selfupdate"
 )
 
 func doUpdate(url string) error {
